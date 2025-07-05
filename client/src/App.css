@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.google-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #357ae8;
+}
+
+
+.wishlist-cover {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-card {
+  list-style: none;
+  background: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.product-card img {
+  max-width: 100px;
+  border-radius: 8px;
+}
+
+.reactions button {
+  margin: 5px;
+  font-size: 20px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comments input {
+  width: calc(100% - 90px);
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.comments button {
+  padding: 8px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.invite-section {
+  margin: 20px 0;
+}
+
+.invite-msg {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
